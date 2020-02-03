@@ -1,0 +1,53 @@
+
+input {
+    width: 400px;
+    height: 25px;
+    border: rgb(62, 141, 88);
+    border-radius: 3px;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 4px 10px 3px rgba(51, 51, 51, 0.5);
+    outline: none;
+    color: white;
+
+}
+input:focus{
+    outline: red;
+}
+textarea {
+    width: 400px;
+    box-shadow: 0 4px 10px 3px rgba(51, 51, 51, 0.5);
+    background: rgba(255,255,255,0.1);
+    color: white;
+    outline: none;
+}
+::placeholder {
+    font-size: 1rem;
+}
+
+/*classes*/
+
+.trailForm {
+    border: 3px outset rgba(34, 238, 44, 0.2);;
+    width: 450px;
+    height: 30%;
+    border-radius: 10px;
+    padding-right: 10px;
+    color: white;
+    margin: 10px;
+}
+.innerForm {
+    padding: 25px;
+}
+
+.selectbox {
+    background:linear-gradient(to bottom, #cdf570 5%, #77a809 100%);
+    width: 100px;
+    outline: none;
+}
+.addbtn {
+    width: 350px;
+}
+.addbt {
+    padding: 15px;
+   
+}

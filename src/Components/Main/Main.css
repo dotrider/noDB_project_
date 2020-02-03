@@ -1,0 +1,9 @@
+/*Flex*/
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 0 auto;
+    width: 90%;
+}
+
